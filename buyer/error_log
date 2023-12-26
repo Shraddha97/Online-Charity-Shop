@@ -1,0 +1,28 @@
+[08-Dec-2022 14:08:04 UTC] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: Currency is not supported in /home/gxvxuoyc/web.stellarinfosys.com/rushabhtrading/razorpay-php/src/Request.php:139
+Stack trace:
+#0 /home/gxvxuoyc/web.stellarinfosys.com/rushabhtrading/razorpay-php/src/Request.php(109): Razorpay\Api\Request->processError(Array, 400, Object(Requests_Response))
+#1 /home/gxvxuoyc/web.stellarinfosys.com/rushabhtrading/razorpay-php/src/Request.php(58): Razorpay\Api\Request->checkErrors(Object(Requests_Response))
+#2 /home/gxvxuoyc/web.stellarinfosys.com/rushabhtrading/razorpay-php/src/Entity.php(86): Razorpay\Api\Request->request('POST', 'https://api.raz...', Array)
+#3 /home/gxvxuoyc/web.stellarinfosys.com/rushabhtrading/razorpay-php/src/Entity.php(15): Razorpay\Api\Entity->request('POST', 'orders/', Array)
+#4 /home/gxvxuoyc/web.stellarinfosys.com/rushabhtrading/razorpay-php/src/Order.php(12): Razorpay\Api\Entity->create(Array)
+#5 /home/gxvxuoyc/web.stellarinfosys.com/rushabhtrading/buyer/make_payment.php(34): Razorpay\Api\Order->create( in /home/gxvxuoyc/web.stellarinfosys.com/rushabhtrading/razorpay-php/src/Request.php on line 139
+[08-Dec-2022 14:08:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/gxvxuoyc/web.stellarinfosys.com/rushabhtrading/buyer/checkout.php on line 257
+[08-Dec-2022 14:09:36 UTC] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: Currency is not supported in /home/gxvxuoyc/web.stellarinfosys.com/rushabhtrading/razorpay-php/src/Request.php:139
+Stack trace:
+#0 /home/gxvxuoyc/web.stellarinfosys.com/rushabhtrading/razorpay-php/src/Request.php(109): Razorpay\Api\Request->processError(Array, 400, Object(Requests_Response))
+#1 /home/gxvxuoyc/web.stellarinfosys.com/rushabhtrading/razorpay-php/src/Request.php(58): Razorpay\Api\Request->checkErrors(Object(Requests_Response))
+#2 /home/gxvxuoyc/web.stellarinfosys.com/rushabhtrading/razorpay-php/src/Entity.php(86): Razorpay\Api\Request->request('POST', 'https://api.raz...', Array)
+#3 /home/gxvxuoyc/web.stellarinfosys.com/rushabhtrading/razorpay-php/src/Entity.php(15): Razorpay\Api\Entity->request('POST', 'orders/', Array)
+#4 /home/gxvxuoyc/web.stellarinfosys.com/rushabhtrading/razorpay-php/src/Order.php(12): Razorpay\Api\Entity->create(Array)
+#5 /home/gxvxuoyc/web.stellarinfosys.com/rushabhtrading/buyer/make_payment.php(34): Razorpay\Api\Order->create( in /home/gxvxuoyc/web.stellarinfosys.com/rushabhtrading/razorpay-php/src/Request.php on line 139
+[08-Dec-2022 14:09:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/gxvxuoyc/web.stellarinfosys.com/rushabhtrading/buyer/checkout.php on line 257
+[08-Dec-2022 14:10:52 UTC] PHP Fatal error:  Uncaught Razorpay\Api\Errors\BadRequestError: Currency is not supported in /home/gxvxuoyc/web.stellarinfosys.com/rushabhtrading/razorpay-php/src/Request.php:139
+Stack trace:
+#0 /home/gxvxuoyc/web.stellarinfosys.com/rushabhtrading/razorpay-php/src/Request.php(109): Razorpay\Api\Request->processError(Array, 400, Object(Requests_Response))
+#1 /home/gxvxuoyc/web.stellarinfosys.com/rushabhtrading/razorpay-php/src/Request.php(58): Razorpay\Api\Request->checkErrors(Object(Requests_Response))
+#2 /home/gxvxuoyc/web.stellarinfosys.com/rushabhtrading/razorpay-php/src/Entity.php(86): Razorpay\Api\Request->request('POST', 'https://api.raz...', Array)
+#3 /home/gxvxuoyc/web.stellarinfosys.com/rushabhtrading/razorpay-php/src/Entity.php(15): Razorpay\Api\Entity->request('POST', 'orders/', Array)
+#4 /home/gxvxuoyc/web.stellarinfosys.com/rushabhtrading/razorpay-php/src/Order.php(12): Razorpay\Api\Entity->create(Array)
+#5 /home/gxvxuoyc/web.stellarinfosys.com/rushabhtrading/buyer/make_payment.php(34): Razorpay\Api\Order->create( in /home/gxvxuoyc/web.stellarinfosys.com/rushabhtrading/razorpay-php/src/Request.php on line 139
+[08-Dec-2022 14:10:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/gxvxuoyc/web.stellarinfosys.com/rushabhtrading/buyer/checkout.php on line 257
+[08-Dec-2022 14:10:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/gxvxuoyc/web.stellarinfosys.com/rushabhtrading/buyer/checkout.php on line 257
